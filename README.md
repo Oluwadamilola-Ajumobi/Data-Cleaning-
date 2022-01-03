@@ -1,4 +1,4 @@
-# Data-Cleaning-This is a data cleaning with python project
+# Data-Cleaning
 
 Dirty data can appear because of duplicate values, mis-spellings and wrong labels, data-type parsing errors or incorrect data. Most data professionals do data cleaning 20-60% of the time, this is one of the major skills to have as a data professional.  
 Each datatype has its unique format and incorrect datatype labelling can result in wrong information on charts and visualizations, bad prediction, mis-information and mis-leadings.                                                                                       
@@ -13,3 +13,10 @@ Common issues that require cleansing in a datasets include; Data type constraint
 
 
 The data cleaning cycle involves importing dataset, merging datasets, identifying missing values, dropping or filling in missing values, renaming or throwing out unnecessary columns  taking out duplicates,purging contaminated data and correcting leaking pipelines, fixing string and datetime issues, removing duplicates or analyzing them separetly, standardizing and normalizing, verifying data adequacy and other added processes according to the data science issue at hand. 
+
+
+This data cleaning project will be written in Python using the Pandas, Numpy and Matplotlib libraries. Ill also be using Google Colab as IDE
+
+
+
+https://colab.research.google.com/drive/1-6aBcpDZivNMHKyQ2e2adsjZX9le8s8P#scrollTo=VxhMcjgXdS6J&line=3&uniqifier=1
