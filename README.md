@@ -9,5 +9,7 @@ Datatypes with Examples
 4. Integers - Subscribers, products sold
 5. Dates - Order date, shipping date, birth date
 6. Binary -yes/no, true/false, is_married. It is extremely important ensure that variables have the correct datatype. 
-
 Common issues that require cleansing in a datasets include; Data type constraint, numerical/text or categorical features, data range constraints, unique constraints, inconsistency in capitalization, membership constraints, trailing space, phone number column...
+
+
+The data cleaning cycle involves importing dataset, merging datasets, identifying missing values, dropping or filling in missing values, renaming or throwing out unnecessary columns  taking out duplicates,purging contaminated data and correcting leaking pipelines, fixing string and datetime issues, removing duplicates or analyzing them separetly, standardizing and normalizing, verifying data adequacy and other added processes according to the data science issue at hand. 
