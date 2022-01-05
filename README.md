@@ -19,7 +19,7 @@ This data cleaning project will be written in Python using the Pandas, Numpy and
 
 My data cleaning process; 
 
-1)Importing the Dataset; downloaded my dataset for the data cleaning project from Kaggle.com (https://www.kaggle.com/imdevskp/cholera-dataset). I have always been interested in Health Analytics and obtaining this dataset is an opportunity for me to work on something I'd enjoy. 
+1)Importing the Dataset; downloaded my dataset for the data cleaning project from Kaggle.com (https://www.kaggle.com/imdevskp/cholera-dataset). I have always been interested in Health Analytics and working on this dataset is an opportunity for me to work on something I enjoy. 
 
 2)Summarizing the first and last 5 rows of my data to get a view of what my table looks like. 
 
