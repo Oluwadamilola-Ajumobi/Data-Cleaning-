@@ -31,6 +31,6 @@ My data cleaning process;
 
 6)Using isnull().sum() to generate the total number of nulls in each column and filling these null values with 0
 
-7)
+7)Removed whitespaces from the dataset and replaced the unknown values with 0
 
-6)
+8)
