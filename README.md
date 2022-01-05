@@ -17,7 +17,7 @@ The data cleaning cycle involves importing dataset, merging datasets, identifyin
 
 This data cleaning project will be written in Python using the Pandas, Numpy and Matplotlib libraries as well as using Google Colab as IDE.
 
-My data cleaning process; 
+**Data cleaning process;** 
 
 1)Importing the Dataset; downloaded my dataset for the data cleaning project from Kaggle.com (https://www.kaggle.com/imdevskp/cholera-dataset). I have always been interested in Health Analytics and working on this dataset is an opportunity for me to work on something I enjoy. 
 
