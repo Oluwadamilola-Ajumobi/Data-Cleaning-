@@ -19,8 +19,7 @@ This data cleaning project will be written in Python using the Pandas, Numpy and
 
 My data cleaning process; 
 
-1) Importing the Dataset 
-I downloaded my dataset for the data cleaning project from Kaggle.com (https://www.kaggle.com/imdevskp/cholera-dataset). I have always been interested in Health Analytics and obtaining this dataset is an opportunity for me to work on something I'd enjoy. 
+1) Importing the Dataset; downloaded my dataset for the data cleaning project from Kaggle.com (https://www.kaggle.com/imdevskp/cholera-dataset). I have always been interested in Health Analytics and obtaining this dataset is an opportunity for me to work on something I'd enjoy. 
 
 2)Summarizing the first and last 5 rows of my data to get a view of what my table looks like. 
 
@@ -28,6 +27,10 @@ I downloaded my dataset for the data cleaning project from Kaggle.com (https://w
 
 4)Generating the shape and info of the dataset to know the total number of columns and rows available in the dataset. 
 
-5)Using isnull().sum() to generate the total number of nulls in each column 
+5)Renaming some of the columns for easy access during further processing.
 
-6)Considering that I have alot of nulls in my dataset and dropping the columns might affect results, I decided to use the .describe() to generate the statistical values of the dataset in order to use these values to replace the missing values 
+6)Using isnull().sum() to generate the total number of nulls in each column and filling these null values with 0
+
+7)
+
+6)
