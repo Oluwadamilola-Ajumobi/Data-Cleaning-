@@ -15,8 +15,19 @@ Common issues that require cleansing in a datasets include; Data type constraint
 The data cleaning cycle involves importing dataset, merging datasets, identifying missing values, dropping or filling in missing values, renaming or throwing out unnecessary columns  taking out duplicates,purging contaminated data and correcting leaking pipelines, fixing string and datetime issues, removing duplicates or analyzing them separetly, standardizing and normalizing, verifying data adequacy and other added processes according to the data science issue at hand. 
 
 
-This data cleaning project will be written in Python using the Pandas, Numpy and Matplotlib libraries. Ill also be using Google Colab as IDE
+This data cleaning project will be written in Python using the Pandas, Numpy and Matplotlib libraries as well as using Google Colab as IDE.
 
+My data cleaning process; 
 
+1) Importing the Dataset 
+I downloaded my dataset for the data cleaning project from Kaggle.com (https://www.kaggle.com/imdevskp/cholera-dataset). I have always been interested in Health Analytics and obtaining this dataset is an opportunity for me to work on something I'd enjoy. 
 
-https://colab.research.google.com/drive/1-6aBcpDZivNMHKyQ2e2adsjZX9le8s8P#scrollTo=VxhMcjgXdS6J&line=3&uniqifier=1
+2)Summarizing the first and last 5 rows of my data to get a view of what my table looks like. 
+
+3)Checking dtype of the columns available in the dataset to for further reference in processes
+
+4)Generating the shape and info of the dataset to know the total number of columns and rows available in the dataset. 
+
+5)Using isnull().sum() to generate the total number of nulls in each column 
+
+6)Considering that I have alot of nulls in my dataset and dropping the columns might affect results, I decided to use the .describe() to generate the statistical values of the dataset in order to use these values to replace the missing values 
